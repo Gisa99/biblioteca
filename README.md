@@ -9,3 +9,5 @@ AS técnologias utilizadas foram HTML e CSS.
 Obs: Para fazer a parte do "Carrossel" de livros, utilizei um plugin do js chamado Swiper.
 
 Em breve incrementarei novas funcionalidades ao projeto! ;)
+
+Você pode testar o projeto por aqui: https://gisa99.github.io/biblioteca/
