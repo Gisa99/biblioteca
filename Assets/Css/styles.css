@@ -1,0 +1,33 @@
+@import url("Header/header.css");
+@import url("Header/lista-menu.css");
+@import url("Main/Banner.css/banner.css");
+@import url("Main/Carrossel.css/carrossel.css");
+@import url("Main/Card/card.css");
+@import url("Main/Topicos/topicos.css");
+@import url("Main/Contato/contato.css");
+@import url("Footer/footer.css");
+
+:root{
+    --branco: #ffffff;
+    --cor-de-fundo: #EBECEE;
+    --laranja: #EB9B00;
+    --laranja-hover: #b67c07;
+    /*Cores Linear Gradient*/
+    --azul-claro: #326589;
+    --azul-escuro: #002F52;
+    --roxo-gradiente: linear-gradient(98deg, #52004F 35.49%, #be43ccd2 165.37%);
+    --roxo-hover: #470857;
+    --roxo: #a706aa;
+    --poppins: 'Poppins', sans-serif;
+    --preta: #000000;
+    --cinza: #333232;
+    --cinza-claro: rgba(127, 127, 129, 0.925);
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+}
+

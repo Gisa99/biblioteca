@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Assets/Css/styles.css">
+    <link rel="stylesheet" href="Assets/Css/reset.css">
+    <link rel="stylesheet" href="Assets/Css/Header/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Coffee & Books </title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Drama</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Fantasia</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Romance</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Suspense</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Terror</a>
+                </li>
+            </ul>
+            <img class="logo container__imagem" src="Assets/imagens/imagens-my-project/logo.png"
+                alt="logo Coffee & Books">
+            <img class="logo-grande" src="Assets/imagens/imagens-my-project/logo-grande.png" alt="logo Coffee & Books">
+        </div>
+        <div class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__rotulo">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Drama</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Fantasia</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Romance</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Suspense</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Terror</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+
+        </div>
+        <div class="container">
+            <a href="#"><img class="favoritos-icon container__imagem container__imagem-transparente"
+                    src="Assets/imagens/imagens-my-project/coracao.svg" alt="Meus favoritos"></a>
+            <a href="#" class="container__link">
+                <img class="container__imagem" src="Assets/imagens/imagens-my-project/Compras.svg"
+                    alt="carrinho de compras">
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img class="container__imagem" src="Assets/imagens/imagens-my-project/Usuario.svg" alt="Meu Perfil">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+
+    </header>
+    <main>
+        <section class="banner">
+            <h2 class="banner__titulo">O que você deseja ler hoje?</h2>
+            <p class="banner__texto">
+                Encontre um mundo de descobertas através da nossa estante!
+            </p>
+            <input type="search" class="banner__pesquisa" placeholder="Buscar uma aventura...">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Novos lançamentos</h2>
+            <div class="carrossel__container">
+                <div class="swiper">
+
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/images.jpg"
+                                alt="livro o beijo traiçoeiro"></div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/avalon.jpg"
+                                alt="livro as brumas de avalon"></div>
+                        <div class="swiper-slide"><img
+                                src="Assets/imagens/imagens-my-project/o-retrato-de-dorian-gray.png"
+                                alt="livro o retrato de dorian gray"></div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/morro-dos-ventos.jpg"
+                                alt="o morro dos ventos uivantes"></div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/o gato preto.jpg"
+                                alt="o gato preto">
+                        </div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/download.jpg"
+                                alt="livro de romance">
+                        </div>
+
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="card">
+                    <div class="card__descricao">
+                        <div class="descricao">
+                            <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
+                            <h2 class="descricao__titulo-livro">O Hobbit</h2>
+                            <p class="descricao-texto">Como a maioria dos hobbits, Bilbo Bolseiro leva uma vida
+                                tranquila
+                                até o dia em que recebe uma missão do mago Gandalf</p>
+                        </div>
+                        <img class="card__img" src="Assets/imagens/imagens-my-project/hobbit.jpg"
+                            alt="imagem livro do hobbit">
+                    </div>
+                    <div class="card__botoes">
+                        <ul class="botoes">
+                            <a class="botoes__item-ancora" href="#">
+                                <li class="botoes-item "><img src="Assets/imagens/imagens-my-project/coracao.svg"
+                                    alt="meus favoritos"></li>
+                            </a>
+                           <a class="botoes__item-ancora" href="#">
+                            <li class="botoes-item"><img src="Assets/imagens/imagens-my-project/Compras.svg"
+                                alt="meu carrinho"></li>
+                           </a>
+                            
+                        </ul>
+                        <a href="#" class="botoes__ancora">Saiba mais</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Mais vendidos</h2>
+            <div class="carrossel__container">
+                <div class="swiper">
+
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/agatha.jpg"
+                                alt="O assassinato - Agatha Christie"></div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/cortico.jpg"
+                                alt="O cortiço"></div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/revolucao-bichos.jpg"
+                                alt="a revolução dos bichos">
+                        </div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/exorcista.jpg"
+                                alt="O exorcista"></div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/game-of-trones.jpg"
+                                alt="Game of Thrones"></div>
+                        <div class="swiper-slide"><img src="Assets/imagens/imagens-my-project/historinhas-de-terror.jpg"
+                                alt="histórinhas de terror">
+                        </div>
+
+                    </div>
+
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="card">
+                    <div class="card__descricao">
+                        <div class="descricao">
+                            <div class="descricao__avaliacoes">
+                                <img src="Assets/imagens/imagens-my-project/star-avaliacao.svg" alt="Estrela Avaliação">
+                                <img src="Assets/imagens/imagens-my-project/star-avaliacao.svg" alt="Estrela Avaliação">
+                                <img src="Assets/imagens/imagens-my-project/star-avaliacao.svg" alt="Estrela Avaliação">
+                                <img src="Assets/imagens/imagens-my-project/star-avaliacao.svg" alt="Estrela Avaliação">
+                                <img src="Assets/imagens/imagens-my-project/star-avaliacao.svg" alt="Estrela Avaliação">
+                            </div>
+                            <h3 class="descricao__titulo">Autora do Mês</h3>
+                            <h2 class="descricao__titulo-livro">Giórgia do Valle</h2>
+                            <p class="descricao-texto">Giórgia é formada em Letras e escreveu seu primeiro conto quando tinha apenas 15 anos.</p>
+                        </div>
+                        <img class="card__img img-autor" src="Assets/imagens/imagens-my-project/autor.jpg"
+                            alt="imagem livro do hobbit">
+                    </div>
+                    <div class="card__botoes">
+                        <ul class="botoes">
+                            <li class="botoes-item"><img src="Assets/imagens/imagens-my-project/coracao.svg"
+                                    alt="meus favoritos"></li>
+                            <li class="botoes-item"><img src="Assets/imagens/imagens-my-project/Compras.svg"
+                                    alt="meu carrinho"></li>
+                        </ul>
+                        <a href="#" class="botoes__ancora">Saiba mais</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="topicos">
+            <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="topicos__lista">
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Filosofia</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Empreendedorismo</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Desenvolvimento Pessoal</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Nutrição</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Psicologia</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Investigação Criminal</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Serial Killer</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Melhores Bandas</a>
+                </li>
+            </ul>
+        </section>
+        <section class="contato">
+            <div class="contato__descricao">
+                <h2 class="contato__titulo">Fique por dentro das novidades</h2>
+                <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
+            <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
+        </section>
+        <hr />
+    </main>
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo Coffee & Book</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação</li>
+            <li class="lista__rodape-item">
+                <img src="Assets/imagens/imagens-my-project/biblioteca-santiago.png" alt="Biblioteca Santiago">
+                <a href="#">Biblioteca Santiago</a>
+            </li>
+            <li class="lista__rodape-item">
+                <img src="Assets/imagens/imagens-my-project/escola das artes.png" alt="Escola das Artes">
+                <a href="#">Escola das Artes</a>
+            </li>
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Editoras Parceiras</li>
+            <li class="lista__rodape-item">
+                <img src="Assets/imagens/imagens-my-project/editora-lerbem.png" alt="Lerbem">
+                <a href="#">Editora Lerbem</a>
+            </li>
+            <li class="lista__rodape-item">
+                <img src="Assets/imagens/imagens-my-project/casa das lestras.png" alt="Casa das letras">
+                <a href="#">Casa das Letras</a>
+            </li>
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Comunidades</li>
+            <li class="lista__rodape-item">
+                <img src="Assets/imagens/imagens-my-project/amigos-leitores.png" alt="Amigos Leitores">
+                <a href="#">Amigos Leitores</a>
+            </li>
+            <li class="lista__rodape-item">
+                <img src="Assets/imagens/imagens-my-project/jovens escritores.png" alt="Jovens escritores">
+                <a href="#">Jovens Escritores</a>
+            </li>
+            <li class="lista__rodape-item">
+                <img src="Assets/imagens/imagens-my-project/academia das palavras.png" alt="Academia das Palavras">
+                <a href="#">Academia das Palavras</a>
+            </li>
+        </ul>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+.card{
+    background-color: var(--branco);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: var(--poppins);
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+.card__img{
+    height: 180px;
+}
+
+.img-autor{
+    height: 122px;
+}
+
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.botoes{
+    display: flex;
+    align-items: center;
+}
+.descricao__avaliacoes{
+    display: flex;
+}
+.descricao__avaliacoes img{
+    margin: 0 0 1em 0;
+    height: 15px;
+}
+
+.descricao__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 18px;
+    width: 90%;
+}
+
+.descricao__titulo-livro{
+    color: var(--roxo-hover);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em  0;
+}
+
+.descricao-texto{
+    font-size: 14px;
+    width: 90%; 
+}
+
+.botoes__item{
+    margin: 0 0.5em;
+
+}
+
+
+
+.botoes__ancora{
+    background-color: var(--laranja);
+    padding: 1em 1em;
+    margin: 0 0.5em 0 0;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botoes__ancora:hover{
+    background-color: var(--laranja-hover);
+}
+
+
+@media(min-width: 768px){
+    .card{
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media(min-width: 1280px){
+    .card{
+        width: 50%;
+        margin-left: 3em;
+    }
+   .descricao__titulo{
+     font-size: 28px;
+   }
+   .descricao-texto{
+    font-size: 16px;
+   }
+   
+}
